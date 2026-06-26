@@ -36,3 +36,14 @@ Each notebook uses small sample datasets under its project folder and exports tr
 - LangGraph: https://langchain-ai.github.io/langgraph/
 - Microsoft AutoGen: https://microsoft.github.io/autogen/
 - CrewAI: https://docs.crewai.com/
+
+## Python Source Code
+
+Standalone Python implementations are available under `src/agentic_ai/`.
+
+```bash
+python run_research_assistant.py
+python run_support_resolution.py
+```
+
+The scripts run the same baseline agent workflows as the notebooks and export trace CSV files under each project folder's ignored `outputs/` directory.
