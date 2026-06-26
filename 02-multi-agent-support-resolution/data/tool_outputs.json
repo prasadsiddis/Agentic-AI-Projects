@@ -1,0 +1,6 @@
+{
+  "refund_policy": "Refunds are allowed for damaged items when reported within 30 days.",
+  "billing_policy": "Enterprise billing disputes should be reviewed by an account manager.",
+  "api_key_help": "Users can rotate API keys from the security settings page.",
+  "outage_policy": "Outage escalations require incident status, timeline, and customer impact summary."
+}

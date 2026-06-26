@@ -1,0 +1,22 @@
+{
+  "experiment_name": "multi_agent_support_resolution_baseline",
+  "agents": [
+    "triage_agent",
+    "refund_specialist",
+    "billing_specialist",
+    "technical_specialist",
+    "policy_checker",
+    "escalation_agent"
+  ],
+  "tools": [
+    "policy_search",
+    "order_lookup",
+    "account_lookup",
+    "incident_lookup"
+  ],
+  "metrics": [
+    "route_accuracy",
+    "escalation_accuracy",
+    "trace_completeness"
+  ]
+}

@@ -1,0 +1,6 @@
+source_id,title,domain,text
+S1,Retrieval Augmented Generation,rag,"RAG systems retrieve external evidence before generating an answer, improving factual grounding."
+S2,Agent Planning,agents,"Agentic systems decompose goals into steps, call tools, observe results, and revise plans."
+S3,Evaluation of LLM Systems,evaluation,"LLM evaluation should inspect final answers and intermediate traces such as retrieved evidence and tool calls."
+S4,Multimodal Agents,multimodal,"Multimodal agents combine text, images, tools, and structured observations to complete tasks."
+S5,Human Escalation,safety,"High uncertainty or unsupported claims should trigger escalation or a request for more evidence."

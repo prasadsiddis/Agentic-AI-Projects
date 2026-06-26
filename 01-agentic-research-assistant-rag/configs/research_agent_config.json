@@ -1,0 +1,12 @@
+{
+  "experiment_name": "agentic_research_assistant_baseline",
+  "retriever": "lexical_overlap",
+  "planner": "rule_based_query_decomposition",
+  "synthesizer": "evidence_concatenation_baseline",
+  "checker": "citation_coverage_check",
+  "metrics": [
+    "source_recall",
+    "citation_coverage",
+    "trace_completeness"
+  ]
+}

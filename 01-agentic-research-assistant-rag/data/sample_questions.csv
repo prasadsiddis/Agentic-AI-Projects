@@ -1,0 +1,5 @@
+question_id,question,expected_sources
+Q1,How does RAG improve factual grounding?,S1
+Q2,What should be evaluated in agentic systems?,S2;S3
+Q3,When should an agent escalate instead of answering?,S5
+Q4,How do multimodal agents differ from text-only agents?,S4

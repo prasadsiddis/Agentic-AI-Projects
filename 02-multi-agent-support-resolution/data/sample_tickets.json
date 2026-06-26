@@ -1,0 +1,30 @@
+[
+  {
+    "ticket_id": "T1",
+    "customer_tier": "standard",
+    "message": "My order arrived damaged and I need a refund.",
+    "expected_route": "refund_specialist",
+    "expected_escalation": false
+  },
+  {
+    "ticket_id": "T2",
+    "customer_tier": "enterprise",
+    "message": "The invoice is wrong and our renewal is blocked.",
+    "expected_route": "billing_specialist",
+    "expected_escalation": true
+  },
+  {
+    "ticket_id": "T3",
+    "customer_tier": "standard",
+    "message": "How do I reset my API key?",
+    "expected_route": "technical_specialist",
+    "expected_escalation": false
+  },
+  {
+    "ticket_id": "T4",
+    "customer_tier": "enterprise",
+    "message": "We may cancel unless this outage is explained today.",
+    "expected_route": "technical_specialist",
+    "expected_escalation": true
+  }
+]
