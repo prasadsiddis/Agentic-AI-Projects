@@ -10,6 +10,8 @@ These projects are designed to run without paid API keys by using transparent ba
 |---|---|---|
 | 01 | [Agentic Research Assistant with RAG](01-agentic-research-assistant-rag/README.md) | Query planning, retrieval, source-grounded synthesis, citation checking, and evaluation |
 | 02 | [Multi-Agent Support Resolution System](02-multi-agent-support-resolution/README.md) | Ticket triage, tool routing, specialist agents, escalation decisions, and response quality checks |
+| 03 | [Autonomous Data Analysis Agent](03-autonomous-data-analysis-agent/README.md) | Question planning, tabular tool use, metric-grounded answers, and analysis trace evaluation |
+| 04 | [Agentic Code Review and Debugging Assistant](04-agentic-code-review-debugger/README.md) | Failing-test interpretation, static code inspection, defect classification, patch guidance, and risk labels |
 
 ## What This Repo Demonstrates
 
@@ -19,6 +21,7 @@ These projects are designed to run without paid API keys by using transparent ba
 - Multi-agent role separation
 - Safety and confidence checks
 - Evaluation traces and reproducible experiment configs
+- End-to-end Python modules with sample data, configs, prompts, and runnable scripts
 
 ## Quick Start
 
@@ -44,6 +47,8 @@ Standalone Python implementations are available under `src/agentic_ai/`.
 ```bash
 python run_research_assistant.py
 python run_support_resolution.py
+python run_data_analysis_agent.py
+python run_code_review_agent.py
 ```
 
 The scripts run the same baseline agent workflows as the notebooks and export trace CSV files under each project folder's ignored `outputs/` directory.

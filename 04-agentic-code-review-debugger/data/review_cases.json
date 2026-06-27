@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "CR1",
+    "title": "Average score crashes on empty input",
+    "code": "def average_score(scores):\n    return sum(scores) / len(scores)",
+    "test_failure": "ZeroDivisionError when scores=[]",
+    "expected_issue": "division_by_zero",
+    "expected_severity": "high"
+  },
+  {
+    "case_id": "CR2",
+    "title": "Task list keeps values across calls",
+    "code": "def add_task(task, tasks=[]):\n    tasks.append(task)\n    return tasks",
+    "test_failure": "Second test receives tasks from first test",
+    "expected_issue": "mutable_default_argument",
+    "expected_severity": "medium"
+  },
+  {
+    "case_id": "CR3",
+    "title": "Last element is skipped",
+    "code": "def collect_items(items):\n    result = []\n    for i in range(len(items) - 1):\n        result.append(items[i])\n    return result",
+    "test_failure": "Expected 4 items but received 3",
+    "expected_issue": "off_by_one_boundary",
+    "expected_severity": "medium"
+  },
+  {
+    "case_id": "CR4",
+    "title": "API key appears in source",
+    "code": "API_KEY = \"sk-live-123456\"\ndef call_service(payload):\n    return {\"auth\": API_KEY, \"payload\": payload}",
+    "test_failure": "Security scan flagged a hard-coded credential",
+    "expected_issue": "hard_coded_secret",
+    "expected_severity": "critical"
+  }
+]

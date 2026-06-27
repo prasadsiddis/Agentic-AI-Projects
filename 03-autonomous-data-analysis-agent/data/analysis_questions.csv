@@ -1,0 +1,6 @@
+question_id,question,expected_tool
+AQ1,What is the overall shape and quality of this dataset?,dataset_profile
+AQ2,Which customer segment generates the most revenue?,segment_revenue
+AQ3,How is revenue trending month by month?,monthly_trend
+AQ4,Are there any unusual revenue jumps or anomalies?,anomaly_scan
+AQ5,Do we have signs of repeat customers?,retention_proxy

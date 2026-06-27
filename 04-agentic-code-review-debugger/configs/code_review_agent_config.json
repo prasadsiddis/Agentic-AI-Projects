@@ -1,0 +1,23 @@
+{
+  "project": "agentic-code-review-debugger",
+  "planner": {
+    "steps": [
+      "inspect_failure",
+      "scan_code",
+      "classify_issue",
+      "propose_patch",
+      "risk_check"
+    ]
+  },
+  "evaluation": {
+    "metrics": [
+      "issue_match",
+      "has_patch_guidance",
+      "risk_labeled",
+      "trace_complete"
+    ]
+  },
+  "outputs": {
+    "trace_path": "outputs/code_review_agent_trace.csv"
+  }
+}

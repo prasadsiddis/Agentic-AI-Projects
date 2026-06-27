@@ -1,0 +1,17 @@
+{
+  "project": "autonomous-data-analysis-agent",
+  "planner": {
+    "strategy": "keyword_tool_router",
+    "fallback_tool": "dataset_profile"
+  },
+  "evaluation": {
+    "metrics": [
+      "tool_match",
+      "has_numeric_evidence",
+      "trace_complete"
+    ]
+  },
+  "outputs": {
+    "trace_path": "outputs/data_analysis_agent_trace.csv"
+  }
+}
